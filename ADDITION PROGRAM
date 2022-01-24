@@ -3,12 +3,14 @@ class addition
 {
 public Static void main(String arg[])
 {
-int a,b,c;
+int a,b,c,d;
 Scanner sc=new Scanner(System.in);
 System.out.print("enter the values for a and b:");
 a=sc.nextInt();
 b=sc.nextInt();
 c=a+b;
-System.out.print("the value is :"+c);
+d=c+a+b
+System.out.print("the value of c is :"+c);
+System.out.print("the value of d is :"+d)
 }
 }
